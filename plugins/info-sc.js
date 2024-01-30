@@ -3,22 +3,22 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `*https://github.com/GeralBot/prueba.git*`
 let buttonMessage= {
-'document': { url: `https://github.com/GeralBot/prueba.git` },
+'document': { url: `https://instagram.com/superiority.kchero` },
 'mimetype': `application/${document}`,
-'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+'fileName': `𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝗿𝗶𝘁𝘆 𝗕𝗼𝘁`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/GeralBot/prueba.git',
+'mediaUrl': 'https://instagram.com/superiority.kchero',
 'mediaType': 2,
 'previewType': 'pdf',
-'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+'title': '',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': 'https://instagram.com/superiority.kchero' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
