@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen4
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
 let d = new Date(new Date + 3600000)
@@ -17,17 +16,17 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」
+let str = `╭「 𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝗿𝗶𝘁𝘆 𝗕𝗼𝘁 」
 │➯𝗛ᴏʟᴀ,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Geral-Bot
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/51988802645
-│➯ *Yape: 988802645
-│➯ғᴇᴄʜᴀ:➟${date}
-│➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+│➯ *Creador:* Superiority
+│➯ *𝙸𝙽𝙵𝙾:* Wa.me/51926933818
+│➯ *Yape:* 926 933 818
+│➯ *Fecha:* ${date}
+│➯ *Tiempo Activo:* ${uptime}
+│➯ *Usuarios:* ${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」
+╭「 𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝗿𝗶𝘁𝘆 𝗕𝗼𝘁 」
 │➯*Menu*+18*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
@@ -59,7 +58,6 @@ let str = `╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」
 │➯ *.pene*
 │➯ *.porno*
 │➯ *.randomxxx*
-│➯⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'Darling.mp3', null, m, true, { type: 'audioMessage', ptt: true})
