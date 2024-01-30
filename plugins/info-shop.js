@@ -1,11 +1,11 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」
+let text = `╭「 𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝗿𝗶𝘁𝘆 𝗕𝗼𝘁 」
 │➯➻❥ *✳️TIENDA-SHOP✨* ➻❥
 │➯ *.minar gana xp* 🧿
 │➯ *.minar2 gana Diamantes* 💎
-│➯ *.minar3 gana Hades-Coins* 💰
+│➯ *.minar3 gana Coins* 💰
 │➯ *.claim reclama tu recompensa diaria exp* 🧿
 │➯ *.darxp recompensa diaria exp* 🧿
 │➯ *.coffer un cofre de recompensas diarias* ✨
@@ -23,22 +23,22 @@ let text = `╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」
 │➯ *.bal*
 ︎╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/GeralBot/prueba` },
+'document': { url: `https://instagram.com/superiority.kchero` },
 'mimetype': `application/${document}`,
-'fileName': ` 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍`,
+'fileName': `𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝗿𝗶𝘁𝘆 𝗕𝗼𝘁`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/GeralBot/prueba',
+'mediaUrl': 'https://instagram.com/superiority.kchero',
 'mediaType': 2,
 'previewType': 'pdf',
-'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+'title': '⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': 'https://instagram.com/superiority.kchero' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
